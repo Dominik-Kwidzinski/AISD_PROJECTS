@@ -52,7 +52,7 @@ The list of processor instructions is as follows:
 
 $	dollar	split:          detach the first character from the top list and push it onto the stack
 
-#	hash	                  pop list A off the stack; append A to the end of the list at the top of the stack
+\#	hash	                  pop list A off the stack; append A to the end of the list at the top of the stack
 
 +	plus	                  pop number A off the stack; pop number B off the stack; put number A + B on the stack
 
