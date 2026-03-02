@@ -46,7 +46,7 @@ The list of processor instructions is as follows:
 
 ?	question mark	          conditional jump: pop number T off the stack pop list W off the stack if W is not empty and does not contain only the character '0' put number T into the instruction pointer and do not increment                            the instruction pointer;
 
--	minus	negation:         if the last character of the top list is '-' (minus) remove it from the list; otherwise append '-' to the end of the list at the top of the stack
+\-	minus	negation:         if the last character of the top list is '-' (minus) remove it from the list; otherwise append '-' to the end of the list at the top of the stack
 
 ^	caret	absolute value:   if the last character of the top list is '-' (minus) remove it from the list
 
@@ -54,7 +54,7 @@ $	dollar	split:          detach the first character from the top list and push i
 
 \#	hash	                  pop list A off the stack; append A to the end of the list at the top of the stack
 
-+	plus	                  pop number A off the stack; pop number B off the stack; put number A + B on the stack
+\+	plus	                  pop number A off the stack; pop number B off the stack; put number A + B on the stack
 
 &	ampersand	              print the contents of the stack to the standard output in the format:
 
