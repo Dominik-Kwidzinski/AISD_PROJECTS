@@ -33,7 +33,7 @@ The list of processor instructions is as follows:
 
 .	dot	                    read a character from standard input and append it to the beginning of the list on the top of the stack
 
-/>	greater than	          write the first character from the list on the top of the stack to standard output and pop the list off the top of the stack
+\>	greater than	          write the first character from the list on the top of the stack to standard output and pop the list off the top of the stack
 
 !	exclamation mark	      logical negation: if the top of the stack is an empty list or a list containing a single character '0', replace it with a list containing the character '1'; 
                           otherwise replace the list on the top of the stack with a list containing the character '0'
